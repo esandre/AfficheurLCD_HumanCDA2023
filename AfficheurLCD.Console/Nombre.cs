@@ -1,6 +1,6 @@
 ﻿namespace AfficheurLCD.Console;
 
-internal partial class Nombre
+internal partial class Nombre : INombre
 {
     private readonly string _ligne1;
     private readonly string _ligne2;
