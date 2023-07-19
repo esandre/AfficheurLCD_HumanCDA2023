@@ -2,52 +2,52 @@
 
 internal class Nombre
 {
-    public static Nombre Un = new (
+    private static readonly Nombre Un = new (
         "   ", 
         "  |", 
         "  |");
 
-    public static Nombre Deux = new (
+    private static readonly Nombre Deux = new (
         " _ ", 
         " _|", 
         "|_ ");
 
-    public static Nombre Trois = new(
+    private static readonly Nombre Trois = new(
         " _ ",
         " _|",
         " _|");
 
-    public static Nombre Quatre = new(
+    private static readonly Nombre Quatre = new(
         "   ",
         "|_|",
         "  |");
 
-    public static Nombre Cinq = new(
+    private static readonly Nombre Cinq = new(
         " _ ",
         "|_ ",
         " _|");
 
-    public static Nombre Six = new(
+    private static readonly Nombre Six = new(
         " _ ",
         "|_ ",
         "|_|");
 
-    public static Nombre Sept = new(
+    private static readonly Nombre Sept = new(
         " _ ",
         "  |",
         "  |");
 
-    public static Nombre Huit = new(
+    private static readonly Nombre Huit = new(
         " _ ",
         "|_|",
         "|_|");
 
-    public static Nombre Neuf = new(
+    private static readonly Nombre Neuf = new(
         " _ ",
         "|_|",
         " _|");
 
-    public static Nombre Zéro = new(
+    private static readonly Nombre Zéro = new(
         " _ ",
         "| |",
         "|_|");
